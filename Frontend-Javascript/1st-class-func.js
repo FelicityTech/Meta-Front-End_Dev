@@ -1,3 +1,8 @@
+// This works because functions in JavaScript are truly first-class 
+// citizens, which can be assigned to variable names and passed 
+// around just like I would pass around a string, a number, 
+// an object, etc.
+
 function addTwoNums(a, b) {
     console.log(a, b)
 }
