@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary</title>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <form action="my_action_page">
+            <label for="uname">Username:</label>
+            <br>
+            <input type="text" id="uname" name="username" placeholder="Enter your username">
+            <br>
+            <label for="pwd">Password:</label>
+            <br>
+            <input type="password" id="pwd" name="pwd" placeholder="Enter your password">
+            <br><br>
+            <textarea name="response" id="text" cols="30" rows="10" maxlength="200" placeholder="explain yourself in 200 words" ></textarea>
+            <br><br>
+            <input type="submit" value="Login">
+        </form>
+        <br><br>
+        <button type="button" onclick="alert('you just clicked!')">Click Me!</button>
+
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Qualification</legend>
+            <label for="pdegree">Primary degree</label><br>
+            <input type="text" id="pdegree" name="degree" value="Masters"><br>
+            <label for="fos">Last name:</label><br>
+            <input type="text" id="fos" name="field" value="psychology"><br>
+        </fieldset><br><br>
+        <form action="/my_action_page">
+            <label for="flowers">Favourite flower:</label>
+            <input list="flowers" name="flowers">
+            <datalist id="flowers">
+                <option value="Rose"></option>
+                <option value="Lily"></option>
+                <option value="Tulip"></option>
+                <option value="Daffodil"></option>
+                <option value="Orchid"></option>
+            </datalist>
+        </form><br><br>
+        <fieldset>
+            <label for="course">Choose a course:</label>
+            <select id="course" name="courselist">
+                <option value="html">HTML Introduction</option>
+                <option value="css">Styling with CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="react">React Basics</option>
+            </select>
+        </fieldset>
+    </main>
+    <footer></footer>    
+</body>
+</html>
