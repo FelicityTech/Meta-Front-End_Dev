@@ -1,0 +1,17 @@
+#blog > h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+h1:hover {
+    color: orange;
+    text-transform: uppercase;
+    text-decoration: underline red solid 5px;
+}
+/* p {
+    color: rgb(255, 0, 255);
+} */
+
+p {
+    text-transform: uppercase;
+}

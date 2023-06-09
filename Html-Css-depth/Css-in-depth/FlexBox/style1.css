@@ -1,0 +1,18 @@
+/* h1 {
+    color: purple;
+} */
+
+#header1 {
+    color: green;
+}
+.navigation {
+    margin: 2px
+}
+
+p.introduction {
+    margin: 3px;
+}
+
+#blog > h1 {
+    color: blue;
+}
