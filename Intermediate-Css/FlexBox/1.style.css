@@ -1,0 +1,71 @@
+/* Flex Container => Parent */
+
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    /* Flex Container Properties */
+    display: flex;
+    /* justify-content: center; */
+    /* display: inline-flex; */
+/* }it acts as though it is inline, but for a flex container */
+ /* Flex Items => Children */
+
+
+ /* ---------------(1)Flex Direction ---------- */
+ /* flex-direction: row; */
+ 
+ /* --------------reverse(default Reverse)------ */
+ /* flex-direction: row-reverse; */
+
+ /* -----------column-------- - */
+ /* flex-direction: column; */
+
+ /* -----------------------column reverse---------- */
+ /* flex-direction: column-reverse; */
+
+
+ /* --------------------(2) FLEX WRAP----------------- */
+/* 2.1 */
+/* Nowrap (Default) */
+/* flex-wrap: nowrap; */
+
+/* 2.2 */
+/* wrap */
+/* flex-wrap: wrap; */
+
+/* 2.3 */
+/* Wrap reverse */
+/* flex-wrap: wrap-reverse; */
+
+}
+ li {
+    /* display: inline-block; */
+    list-style: none;
+    color: white;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Flex Container => Parent */
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+section {
+    width: 20rem;
+    background-color: lightslategray;
+    padding: 1.5rem;
+    color: white;
+}
+
+/* section h2, section p {
+    background-color: #20b2aa;
+} */
+
+div.content {
+    background-color: #20b2aa;
+    padding: 1rem;
+}
