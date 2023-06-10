@@ -3,6 +3,7 @@
 ul {
     background-color: lightslategray;
     padding: 20px;
+    /* height: 300px; */ /* added for flex flow of columns */
     /* Flex Container Properties */
     display: flex;
     /* justify-content: center; */
@@ -37,7 +38,21 @@ ul {
 /* Wrap reverse */
 /* flex-wrap: wrap-reverse; */
 
+/* ----------------------(3) FLEX FLOW---------------- */
+/* 3.1 */
+/* Row (Direction) Wrap (wrap) */
+/* flex-flow: row wrap; */
+
+/* 3.2 */
+/* Column Wrap */
+/* flex-flow: column wrap; */
+
+/* 3.3 */
+/* Row-reverse wrap */
+/* flex-flow: row-reverse wrap; */
+
 }
+/* FLex Items => Children */
  li {
     /* display: inline-block; */
     list-style: none;
